@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 * {
     box-sizing: border-box;
@@ -7,11 +7,10 @@
 }
 
 body {
-    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
     font-size: medium;
     line-height: 1.6;
     color: #1F2937;
-    background: #fff;
 }
 
 .container {
@@ -24,7 +23,7 @@ body {
 
 nav {
     background: #fff;
-    padding: 12px 0;
+    height: 60px;
 }
 
 nav ul {
@@ -40,18 +39,18 @@ nav .container {
 
 .logo-container {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    gap: 10px;
     align-items: center;
 }
 
 .logo {
-    width: 60px;
+    width: 40px;
 }
 
 .logo-name {
-    font-size: small;
+    font-size: large;
     font-weight: bold;
+    color: #1F2937;
 }
 
 .menu {
@@ -66,18 +65,18 @@ nav .container {
 }
 
 .menu li a:hover {
-  color: #3882F6;
+  color: #C5CAE9;
 }
 
 .header {
-    background-color: #1F2937;
+    background-color: #274472;
     color: #fff;
     padding: 24px 0px;
 }
 
 .header .container {
     justify-content: space-between;
-    gap: 20px;
+    gap: 40px;
 
 }
 
@@ -95,17 +94,21 @@ nav .container {
 
 .header .container div a{
     padding: 10px 20px;
-    color: #1F2937;
-    background-color: yellow;
+    color: #000;
+    background-color: #F8D210;
     font-size: medium;
     font-weight: bold;
+    text-decoration: none;
 }
 
 .header img {
     width: 400px;
-    margin: 20px;
 }
 
+
+.section {
+    height: 400px;
+}
 
 
 
