@@ -84,7 +84,9 @@ nav .container {
 }
 
 .menu li a:hover {
-  color: #C5CAE9;
+    background: rgb(247, 190, 22, 0.2);
+    padding: 10px 20px;
+    color: #06113C;
 }
 
 .header {
@@ -241,6 +243,44 @@ section {
 .join-us p {
     text-align: right;
     font-size: large;
+}
+
+
+.citation {
+    background: #DDDDDD;
+}
+
+
+footer {
+    background-color: #06113C;
+    color: #fff;
+    height: 150px;
+    padding: 24px 0px;
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.links a {
+    text-decoration: none;
+    color: white;
+}
+
+.links a:hover {
+    color: #F7BE16;
+}
+
+.copyright {
+    align-self: center;
 }
 
 
