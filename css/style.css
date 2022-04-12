@@ -245,9 +245,17 @@ section {
     font-size: large;
 }
 
+section:nth-of-type(4) {
+    height: 300px;
+}
 
 .citation {
     background: #DDDDDD;
+}
+
+.citation .container {
+    display: flex;
+    align-items: center;
 }
 
 
