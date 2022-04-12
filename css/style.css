@@ -35,6 +35,10 @@ h1 {
     background-color: #F7BE16;
 }
 
+.button i {
+    margin-right: 10px;
+}
+
 nav {
     background: #fff;
     height: 60px;
@@ -118,11 +122,6 @@ nav .container {
 }
 
 
- /* .header-content a{
-    color: #000;
-    background-color: #F7BE16;
-} */
-
 section {
     height: 600px;
     padding: 24px 0px;
@@ -172,21 +171,6 @@ section {
     border-radius: 100%;
   }
 
-  .get-in-touch {
-    align-self: center;
-  }
-  
-  /* .get-in-touch a{
-    color: #fff;
-    background-color: #396EB0;
-    
-  } */
-
- .get-in-touch a i{
-      margin-right: 10px;
-  }
-
-
 .boxes {
     display: flex;
     justify-content: space-around;
@@ -213,9 +197,52 @@ section {
     text-align: center;
 }
 
+
 .come-with-us {
-    background: #DDDDDD;
+    background: linear-gradient(90deg, #F7BE16 50%, #06113C 50%);
+    /* background: #EEEEEE; */
 }
+
+.come-with-us .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.get-started, .join-us {
+    height: 100%;
+    flex: 1;
+    padding: 10px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.get-started {
+    background: #F7BE16;
+}
+
+.get-started p {
+    font-size: large;
+}
+
+.contact-us .button {
+    color: #fff;
+    background-color: #06113C;
+  }
+
+.join-us {
+    background: #06113C;
+    color: #fff;
+    align-items: flex-end;
+}
+
+.join-us p {
+    text-align: right;
+    font-size: large;
+}
+
 
 
 
