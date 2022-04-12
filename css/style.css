@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Permanent+Marker&display=swap');
 
 * {
     box-sizing: border-box;
@@ -10,12 +10,17 @@ body {
     font-family: 'Poppins', Arial, Helvetica, sans-serif;
     font-size: medium;
     line-height: 1.6;
-    color: #1F2937;
+    color: #06113C;
+}
+
+h1 {
+    font-family: "Permanent Marker";
+    font-size: xx-large;
 }
 
 .container {
-    display: flex;
-    max-width: 1000px;
+    max-width: 1100px;
+    height: 100%;
     margin: 0 auto;
     padding: 10px 40px;
 }
@@ -26,6 +31,8 @@ body {
     font-size: medium;
     font-weight: bold;
     text-decoration: none;
+    color: #000;
+    background-color: #F7BE16;
 }
 
 nav {
@@ -40,6 +47,7 @@ nav ul {
 }
 
 nav .container {
+    display: flex;
     justify-content: space-between;
     align-items: center;
 }
@@ -57,7 +65,7 @@ nav .container {
 .logo-name {
     font-size:large;
     font-weight:900;
-    color: #1F2937;
+    color: #06113C;
 }
 
 .menu {
@@ -68,7 +76,7 @@ nav .container {
 .menu li a {
     text-decoration: none;
     font-weight: bold;
-    color: #1F2937;
+    color: #06113C;
 }
 
 .menu li a:hover {
@@ -76,49 +84,59 @@ nav .container {
 }
 
 .header {
-    background-color: #274472;
+    background-image: url(../images/Optimized-mario-gogh-VBLHICVh-lI-unsplash.jpg);
+    background-size: cover;
+    height: 800px;
     color: #fff;
     padding: 24px 0px;
 }
 
 .header .container {
-    justify-content: space-between;
-    gap: 40px;
-}
-
-.header .container div {
-    text-align: justify;
-    flex: 2;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    align-items: flex-start;
+    justify-content: center;
+    align-items: flex-end;
 }
 
-.header .container div h1 {
+.header-content {
+   width: 600px;
+   height:70%;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   align-items: flex-end;
+}
+
+.header-content p{
+    font-size: 20px;
+    text-align: justify; 
+}
+
+.header-content h1 {
+    font-family: "Permanent Marker";
     text-align:left;
 }
 
-.header .container div a{
-    color: #000;
-    background-color: #F8D210;
-}
 
-.header img {
-    flex: 1;
-    min-width: 250px;
-}
+ /* .header-content a{
+    color: #000;
+    background-color: #F7BE16;
+} */
 
 section {
-    height: 400px;
+    height: 600px;
     padding: 24px 0px;
-    display: flex;
 }
 
+
 .offers .container {
+    display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: space-between;
+}
+
+.offers .container h1{
+    align-self: center;
 }
 
 .offers .container ol {
@@ -126,6 +144,8 @@ section {
     list-style: none;
     margin: 0;
     padding: 0;
+
+    align-self: center;
 
     display: flex;
     flex-direction: column;
@@ -146,22 +166,56 @@ section {
     margin-right: 1rem;
     font-family:  "Arial",serif;
     line-height: 1;
-    background:#F8D210;
+    background:#DDDDDD;
     color:#274472;
     padding: 10px;
     border-radius: 100%;
   }
 
-  .offers .container .get-in-touch a{
-    color: #F8D210;
-    background-color: #274472;
+  .get-in-touch {
+    align-self: center;
   }
+  
+  /* .get-in-touch a{
+    color: #fff;
+    background-color: #396EB0;
+    
+  } */
 
-  .offers .container .get-in-touch a i{
+ .get-in-touch a i{
       margin-right: 10px;
   }
 
 
+.boxes {
+    display: flex;
+    justify-content: space-around;
+}
+
+.box {
+    background: #06113C;
+    color: #fff;
+    width: 200px;
+    height: 200px;
+    padding: 15px 20px;
+    border-radius: 15%;
+    box-shadow: 0 3px 5px rgb(0, 0, 0, 0.6);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box span {
+    font-family: "Permanent Marker";
+    font-size: large;
+    text-align: center;
+}
+
+.come-with-us {
+    background: #DDDDDD;
+}
 
 
 
