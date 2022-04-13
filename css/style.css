@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Poppins', Arial, Helvetica, sans-serif;
-    font-size: medium;
+    font-size: large;
     line-height: 1.6;
     color: #06113C;
 }
@@ -17,12 +17,11 @@ h1 {
 }
 
 .container {
-    max-width: 1100px;
+    max-width: 1200px;
     height: 100%;
     margin: 0 auto;
     padding: 10px 40px;
 }
-
 
 .button {
     padding: 10px 20px;
@@ -31,6 +30,14 @@ h1 {
     text-decoration: none;
     color: #000;
     background-color: #F7BE16;
+}
+
+.title-line {
+    border: 0;
+    height: 10px;
+    background-color: #F7BE16;
+    width: 85%;
+    margin: 10px 0px;
 }
 
 .button i {
@@ -84,6 +91,10 @@ nav .container {
 .menu li a:hover {
     background: rgb(247, 190, 22, 0.2); 
     color: #06113C;
+}
+
+.active {
+    background: rgb(247, 190, 22, 0.2);
 }
 
 .header {
@@ -196,10 +207,8 @@ section {
     text-align: center;
 }
 
-
 .come-with-us {
     background: linear-gradient(90deg, #F7BE16 50%, #06113C 50%);
-    /* background: #EEEEEE; */
 }
 
 .come-with-us .container {
@@ -218,6 +227,14 @@ section {
     justify-content: space-between;
 }
 
+.get-started {
+    align-items: flex-start;
+}
+
+.get-started h1 hr {
+    background-color: #06113C;
+}
+
 .get-started p {
     font-size: large;
 }
@@ -230,6 +247,10 @@ section {
 .join-us {
     color: #fff;
     align-items: flex-end;
+}
+
+.join-us h1 hr {
+    background-color: #fff;
 }
 
 .join-us p {
@@ -255,7 +276,6 @@ section:nth-of-type(4) {
     align-items: center;
 }
 
-
 .quote::before {
     content: "\201c";
     font-size: 100px;
@@ -265,13 +285,11 @@ section:nth-of-type(4) {
     margin: -80px 0;
 }
 
-
 .quote {
     font-family: 'Cookie';
     font-size: 48px;
     font-style: italic;
 }
-
 
 .author {
     font-weight: bold;
@@ -307,6 +325,33 @@ section:nth-of-type(4) {
     width: 150px;
 }
 
+section:nth-of-type(5) {
+    height: 400px;
+}
+
+.success .container {
+    display: flex;
+    align-items: center;
+    gap: 40px
+}
+
+.success .container h1{
+    flex: 1;
+    transform: rotate(350deg);
+}
+
+.success .container div{
+    flex: 1;
+}
+
+.success .container div h2{
+    font-size: large;
+}
+
+.success .container div p{
+    font-size: medium;
+    text-align: justify;
+}
 
 footer {
     background-color: #06113C;
