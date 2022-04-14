@@ -17,7 +17,7 @@ h1 {
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 90vw;
     height: 100%;
     margin: 0 auto;
     padding: 10px 40px;
@@ -30,6 +30,7 @@ h1 {
     text-decoration: none;
     color: #000;
     background-color: #F7BE16;
+    box-shadow: 0 3px 5px rgb(0, 0, 0, 0.6);
 }
 
 .title-line {
@@ -46,7 +47,7 @@ h1 {
 
 nav {
     background: #fff;
-    height: 60px;
+    height: 8vh;
 }
 
 nav ul {
@@ -100,7 +101,7 @@ nav .container {
 .header {
     background-image: url(../images/Optimized-mario-gogh-VBLHICVh-lI-unsplash.jpg);
     background-size: cover;
-    height: 800px;
+    height: 92vh;
     color: #fff;
     padding: 24px 0px;
 }
@@ -364,13 +365,38 @@ section:nth-of-type(5) {
 .success-bottom img {
     width: 350px;
     flex: 1;
-    border-radius: 50px;
 }
 
-.signup {
+.subscribe {
     background: #eee;
-    height: 300px;
+    width: 60vw;
+    height: 180px;
+    margin: 20px auto;
 }
+
+.subscribe .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.signup-form {
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.signup-form input {
+    padding: 0px 20px;
+    font-size: medium;
+}
+
+.signup-form input:nth-of-type(2) {
+    width: 250px;
+}
+
 
 footer {
     background-color: #06113C;
