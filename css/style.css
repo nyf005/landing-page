@@ -264,6 +264,7 @@ section:nth-of-type(4) {
 
 .citation .container {
     display: flex;
+    justify-content: center;
 }
 
 .blockquote {
@@ -370,7 +371,7 @@ section:nth-of-type(5) {
 
 .subscribe {
     background: #eee;
-    width: 60vw;
+    width: 75vw;
     height: 180px;
     margin: 20px auto;
 }
